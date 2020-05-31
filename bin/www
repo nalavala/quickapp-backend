@@ -27,7 +27,7 @@ var server = http.createServer(app);
  */
 
 
-mongoose.connect(`mongodb+srv://revanth:j8rw7oMNTRrtnyaa@cluster0-ewwii.mongodb.net/shortcuts?retryWrites=true&w=majority`
+mongoose.connect(`mongodb+srv://revanth:1742@cluster0-ewwii.mongodb.net/shortcuts?retryWrites=true&w=majority`
 ).then(() => {
   console.log("mongoDB connected");
   mongoose.set('debug', true);
